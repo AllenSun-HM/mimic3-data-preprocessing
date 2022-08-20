@@ -1,2 +1,5 @@
-/data/
+/data/timeseries
+/data/root
+/data/demography_diagnosis
+/data/clinical_notes
 /.idea/
