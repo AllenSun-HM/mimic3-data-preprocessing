@@ -57,6 +57,12 @@ Use the following command to extract validation set from the training set. This 
        
 `{dataset-directory}` can be either `data/timeseries`, `data/demography&diagnosis`, or `data/clinical_notes`.
 
+### final dataset dir
+![img.png](img.png)
+`clinical_notes` contains clinical notes at admission time for each patient
+`timeseries` contains timeseries data like heart rate, blood pressure, etc.
+`demography_diagnosis` contains demographic data and diagnosis.
+`root` is the cleaned but not task-specific data
 ## Citation
 
 This repository is based on https://github.com/YerevaNN/mimic3-benchmarks/blob/master/README.md and https://github.com/bvanaken/clinical-outcome-prediction. Really appreciate the work from both repos!
